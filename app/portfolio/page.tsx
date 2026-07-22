@@ -48,7 +48,7 @@ export default function PortfolioPage() {
         
         "Vercel",
       ],
-      liveUrl: "#https://berrychart.vercel.app/?utm_source=chatgpt.com",
+      liveUrl: "https://berrychart-5owjivjy4-thoobanijams-projects.vercel.app",
       githubUrl: "https://github.com/thoobanijam/Berry-chart",
     },
 

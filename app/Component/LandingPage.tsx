@@ -27,11 +27,11 @@ const LandingPage = () => {
         </h1>
 
         <h1 className="mt-2 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-[#ff76ce]">
-          Web Developer
+          Full Stack & Flutter Developer
         </h1>
 
         <p className="mt-6 text-base sm:text-lg md:text-xl text-[#a8b0d1] hover:scale-105">
-          Frontend Developer | C++ | Java | Next.js | Flutter | Hive | FireBase
+           Full Stack Developer | Dart | Java | Next.js | Flutter | Hive | FireBase
         </p>
      <div className="flex flex-wrap justify-center gap-8 mt-8" >
   <button
@@ -114,12 +114,12 @@ const LandingPage = () => {
       </h3>
 
       <p className="text-gray-200 leading-8">
-        I am a passionate Full Stack Developer specializing in Next.js,
-        React.js, Tailwind CSS, Node.js, and modern web technologies.
-        I enjoy building responsive web applications, e-commerce platforms,
-        dashboards, and AI-powered solutions. My goal is to create fast,
-        scalable, and user-friendly digital experiences while continuously
-        improving my skills and exploring emerging technologies.
+      I am a passionate Full Stack and Flutter Developer specializing in Next.js,
+React.js, Tailwind CSS, Node.js, Flutter, Dart, and modern development
+technologies. I enjoy building responsive web applications, cross-platform
+mobile apps, e-commerce platforms, dashboards, and AI-powered solutions.
+My goal is to create fast, scalable, and user-friendly digital experiences
+while continuously improving my skills and exploring emerging technologies.
       </p>
     </div>
 
