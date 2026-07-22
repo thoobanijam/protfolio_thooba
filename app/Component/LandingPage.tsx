@@ -31,13 +31,36 @@ const LandingPage = () => {
         </h1>
 
         <p className="mt-6 text-base sm:text-lg md:text-xl text-[#a8b0d1] hover:scale-105">
-          Frontend Developer | C++ | Java | Next.js
+          Frontend Developer | C++ | Java | Next.js | Flutter | Hive | FireBase
         </p>
-        <button onClick={() => router.push("/portfolio")}
-        className="mt-6 px-8 py-3 bg-[#bf92f9] text-black font-bold rounded-full
-         hover:bg-[#ff76ce] hover:scale-105 ">
-           My Work
-        </button>
+     <div className="flex flex-wrap justify-center gap-8 mt-8" >
+  <button
+    onClick={() => router.push("/portfolio")}
+    className="px-8 py-4 rounded-2xl bg-gradient-to-r from-purple-500 to-pink-500
+    text-white font-bold text-lg shadow-xl hover:shadow-2xl
+    hover:scale-105 hover:-translate-y-1 transition-all duration-300"
+  >
+    🚀 Next.js Project
+  </button>
+
+  <button
+    onClick={() => router.push("/hive")}
+    className="px-8 py-4 rounded-2xl bg-gradient-to-r from-blue-500 to-cyan-500
+    text-white font-bold text-lg shadow-xl hover:shadow-2xl
+    hover:scale-105 hover:-translate-y-1 transition-all duration-300"
+  >
+    📱 Flutter Hive Project
+  </button>
+
+  <button
+    onClick={() => router.push("/portfolio")}
+    className="px-8 py-4 rounded-2xl bg-gradient-to-r from-orange-500 to-red-500
+    text-white font-bold text-lg shadow-xl hover:shadow-2xl
+    hover:scale-105 hover:-translate-y-1 transition-all duration-300"
+  >
+    🔥 Flutter Firebase Project
+  </button>
+</div>
       </div>
     {/* right side */}
     <div className="flex flex-col" 
