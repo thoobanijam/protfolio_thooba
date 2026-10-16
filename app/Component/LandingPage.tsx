@@ -53,7 +53,7 @@ const LandingPage = () => {
   </button>
 
   <button
-    onClick={() => router.push("/portfolio")}
+    onClick={() => router.push("/firebase")}
     className="px-8 py-4 rounded-2xl bg-gradient-to-r from-orange-500 to-red-500
     text-white font-bold text-lg shadow-xl hover:shadow-2xl
     hover:scale-105 hover:-translate-y-1 transition-all duration-300"

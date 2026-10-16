@@ -12,68 +12,15 @@ const page = () => {
 
     },
     {
-      title: "Employee Monitoring System",
-      description:
-        "A dashboard system to monitor employees, track activities, and manage company operations.",
-       tech: ["Flutter", "Dart", "Hive Local Storage", "Material UI"],
-      image: "/images/ems.png",
-    },
-    {
-      title: "Banking Management System",
-      description:
-        "A full-stack banking application with customer, staff, and admin dashboards.",
-       tech: ["Flutter", "Dart", "Hive Local Storage", "Material UI"],
-      image: "/images/banking.png",
-    },
-    {
-      title: "Social Media Application",
-      description:
-        "A social platform where users can create posts, interact and manage profiles.",
+       image: "/img/calc.png",
+      title: "CALCULATOR-APP",
+      description:"A simple calculator built with Flutter featuring arithmetic operations, calculation history, and Hive local database.",
       tech: ["Flutter", "Dart", "Hive Local Storage", "Material UI"],
-      image: "/images/social.png",
+      
+      githubUrl: "https://github.com/thoobanijam/calculator-app",
+
     },
-    {
-      title: "Blockchain Health Management",
-      description:
-        "A blockchain-based healthcare system for secure medical record management.",
-       tech: ["Flutter", "Dart", "Hive Local Storage", "Material UI"],
-      image: "/images/blockchain.png",
-    },
-    {
-      title: "E-Commerce Platform",
-      description:
-        "Modern online shopping platform with products, cart, payments and authentication.",
-      tech: ["Flutter", "Dart", "Hive Local Storage", "Material UI"],
-      image: "/images/ecommerce.png",
-    },
-    {
-      title: "Food Ordering Application",
-      description:
-        "Food delivery system with restaurant management and order tracking features.",
-      tech: ["Flutter", "Dart", "Hive Local Storage", "Material UI"],
-      image: "/images/food.png",
-    },
-    {
-      title: "Chat Application",
-      description:
-        "Real-time messaging application with authentication and instant communication.",
-       tech: ["Flutter", "Dart", "Hive Local Storage", "Material UI"],
-      image: "/images/chat.png",
-    },
-    {
-      title: "Portfolio Website",
-      description:
-        "Responsive developer portfolio website showcasing skills and projects.",
-      tech: ["Flutter", "Dart", "Hive Local Storage", "Material UI"],
-      image: "/images/portfolio.png",
-    },
-    {
-      title: "Task Management App",
-      description:
-        "Productivity application to create, organize and track daily tasks.",
-     tech: ["Flutter", "Dart", "Hive Local Storage", "Material UI"],
-      image: "/images/todo.png",
-    },
+   
   ];
 
   return (
