@@ -23,7 +23,7 @@ const LandingPage = () => {
         </h1>
 
         <h1 className="mt-2 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white">
-          I'm Fathima Thooba,
+        <p>I&apos;m a developer</p>
         </h1>
 
         <h1 className="mt-2 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-[#ff76ce]">
