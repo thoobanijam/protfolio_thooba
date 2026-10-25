@@ -6,19 +6,28 @@ const page = () => {
         image: "/img/ola.png",
       title: "OLA-APP",
       description:"Built separate screens for Notes and To-Do functionality using reusable Flutter widgets.Integrated Firebase real-time database",
-      tech: ["Flutter", "Dart", "Firebase Real-time Database", "Material UI"],
+      tech: ["Flutter", "Dart", "Firebase Real-time Database", "Material UI","Docker","Render","GitHub Actions (CI/CD)"],
       
       githubUrl: "https://github.com/thoobanijam/olaapp",
-
+ RenderLiveUrl: "https://ola-app-8b5l.onrender.com/",
     },
     {
        image: "/img/jiomart.png",
       title: "JIOMART-APP",
       description:"A simple calculator built with Flutter featuring arithmetic operations, calculation history, and Firebase real-time database.",
-      tech: ["Flutter", "Dart", "Firebase Real-time Database", "Material UI"],
+      tech: ["Flutter", "Dart", "Firebase Real-time Database", "Material UI","Docker","Render","GitHub Actions (CI/CD)"],
       
       githubUrl: "https://github.com/thoobanijam/jiomartapp",
-
+ RenderLiveUrl: "https://jiomart-app.onrender.com/",
+    },
+     {
+       image: "/img/hotelbooking.png",
+      title: "HOTEL BOOKING-APP",
+      description:"Developed a responsive hotel booking platform using Flutter and Firebase, featuring destination browsing, hotel discovery, special offers, and a luxury-inspired user interface.",
+      tech: ["Flutter", "Dart", "Firebase Real-time Database", "Firebase Authentication","Cloud Firestore","Docker","Render","GitHub Actions (CI/CD)"],
+      
+      githubUrl: "https://github.com/thoobanijam/hotelbooking-app",
+ RenderLiveUrl: "https://hotelbooking-app-3o78.onrender.com/",
     },
       ];
 
@@ -184,7 +193,8 @@ const page = () => {
 
 
 
-            <a
+  <div className="flex gap-4">
+          <a
               href={project.githubUrl}
               target="_blank"
                   rel="noopener noreferrer"
@@ -203,7 +213,17 @@ const page = () => {
             >
               View Project
             </a>
-
+<a
+    href={project.RenderLiveUrl}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-flex items-center justify-center w-100
+    rounded-lg bg-green-600 px-6 py-2 text-sm font-semibold text-white shadow-md transition-all duration-300
+     hover:bg-green-700 hover:shadow-lg hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+  >
+    Render Live Demo ↗
+  </a>
+  </div>
 
             </div>
 

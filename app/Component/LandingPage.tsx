@@ -31,7 +31,7 @@ const LandingPage = () => {
         </h1>
 
         <p className="mt-6 text-base sm:text-lg md:text-xl text-[#a8b0d1] hover:scale-105">
-           Full Stack Developer | Dart | Java | Next.js | Flutter | Hive | FireBase
+           Full Stack Developer | Dart | Java | Next.js | Flutter | Hive | FireBase | CI/CD Pipelines | Docker | Render Deployment
         </p>
      <div className="flex flex-wrap justify-center gap-8 mt-8" >
   <button
@@ -59,6 +59,14 @@ const LandingPage = () => {
     hover:scale-105 hover:-translate-y-1 transition-all duration-300"
   >
     🔥 Flutter Firebase Project
+  </button>
+  <button
+    onClick={() => window.open("https://protfolio-thooba.onrender.com/", "_blank")}
+    className="px-8 py-4 rounded-2xl bg-gradient-to-r from-green-500 to-teal-500
+    text-white font-bold text-lg shadow-xl hover:shadow-2xl
+    hover:scale-105 hover:-translate-y-1 transition-all duration-300"
+  >
+    🌐 Portfolio Render Live Link 
   </button>
 </div>
       </div>

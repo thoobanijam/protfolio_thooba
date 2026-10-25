@@ -9,6 +9,7 @@ const page = () => {
       tech: ["Flutter", "Dart", "Hive Local Storage", "Material UI"],
       
       githubUrl: "https://github.com/thoobanijam/to-do-flutter.git",
+       RenderLiveUrl: "https://to-do-flutter.onrender.com",
 
     },
     {
@@ -18,7 +19,7 @@ const page = () => {
       tech: ["Flutter", "Dart", "Hive Local Storage", "Material UI"],
       
       githubUrl: "https://github.com/thoobanijam/calculator-app",
-
+ RenderLiveUrl: "https://calculator-app-latest-rvir.onrender.com/",
     },
    
   ];
@@ -185,7 +186,8 @@ const page = () => {
 
 
 
-            <a
+                   <div className="flex gap-4">
+                       <a
               href={project.githubUrl}
               target="_blank"
                   rel="noopener noreferrer"
@@ -205,8 +207,23 @@ const page = () => {
               View Project
             </a>
 
+ 
+{project.RenderLiveUrl && (
+  <a
+    href={project.RenderLiveUrl}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-flex items-center justify-center 
+    rounded-lg bg-green-600 px-5 py-2.5 text-sm font-semibold text-white shadow-md transition-all duration-300 hover:bg-green-700 hover:shadow-lg hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+  >
+    Live Demo ↗
+  </a>
+)}
 
-            </div>
+
+
+                   </div>
+                     </div>
 
 
           </div>
