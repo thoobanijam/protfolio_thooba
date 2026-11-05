@@ -31,7 +31,7 @@ const LandingPage = () => {
         </h1>
 
         <p className="mt-6 text-base sm:text-lg md:text-xl text-[#a8b0d1] hover:scale-105">
-           Full Stack Developer | Dart | Java | Next.js | Flutter | Hive | FireBase | CI/CD Pipelines | Docker | Render Deployment
+           Full Stack Developer | Dart | Java | Next.js | React | Flutter | Hive | FireBase | CI/CD Pipelines | Docker | Render Deployment
         </p>
      <div className="flex flex-wrap justify-center gap-8 mt-8" >
   <button
@@ -68,6 +68,20 @@ const LandingPage = () => {
   >
     🌐 Portfolio Render Live Link 
   </button>
+<button
+  onClick={() =>
+    window.open(
+      "https://spicejetreact-mvw0tj71x-thoobanijams-projects.vercel.app/",
+      "_blank",
+      "noopener,noreferrer"
+    )
+  }
+  className="px-8 py-4 rounded-2xl bg-gradient-to-r from-purple-500 to-pink-500
+  text-white font-bold text-lg shadow-xl hover:shadow-2xl
+  hover:scale-105 hover:-translate-y-1 transition-all duration-300"
+>
+  ✈️ SpiceJet React Project
+</button>
 </div>
       </div>
     {/* right side */}
